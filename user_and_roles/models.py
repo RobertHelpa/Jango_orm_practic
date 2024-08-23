@@ -6,4 +6,4 @@ class Role(models.Model):
 class User(models.Model):
     name = models.CharField(max_leight=50)
     email = models.EmailField()
-    role = models.ForeignKey(Role, on_delete=models.)
+    role = models.ForeignKey(Role, on_delete=models.CASCADE)
