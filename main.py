@@ -21,7 +21,7 @@ user = User.objects.get_or_create(
 status_in_progress = Status.objocts.get_or_create
 
 task1 = Task.objects.get_or_create(
-    title = "погодувати кота"
+    title = "погодувати кота",
     description = "",
     user = admin
 )
